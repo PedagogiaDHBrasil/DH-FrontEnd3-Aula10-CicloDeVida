@@ -17,7 +17,7 @@ class Container extends React.Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({imHungryFor: "Pizzas"})
-    }, 2000)
+    }, 5000)
   }
   componentDidUpdate() {
     console.log("O componente foi atualizado!");
@@ -42,7 +42,7 @@ class Child extends React.Component {
   }
   render() {
     return (
-      <h1>Seu pedido pedido: {this.props.food}</h1>
+      <h1>Seu pedido: {this.props.food}</h1>
     );
   }
 }
