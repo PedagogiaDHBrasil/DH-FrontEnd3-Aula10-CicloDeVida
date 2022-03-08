@@ -17,7 +17,7 @@ class Container extends React.Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({imHungryFor: "Pizzas"})
-    }, 2000)
+    }, 5000)
   }
   componentDidUpdate() {
     console.log("O componente foi atualizado!");
